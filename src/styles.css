@@ -1,9 +1,13 @@
+body {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
 #app {
+  grid-column: 2/3;
   border: 2px solid black;
   border-radius: 10px;
   display: grid;
   grid-template-columns: auto auto auto;
-  text-align: center;
   margin: 10%;
   grid-gap: 5px;
   padding: 0px 20px 20px 20px;
@@ -11,6 +15,7 @@
 
 #binary {
   display: grid;
+  text-align: center;
 }
 
 #buttons {
@@ -25,8 +30,10 @@
 
 #decimal {
   display: grid;
+  text-align: center;
 }
 
 #app h1 {
+  text-align: center;
   grid-column: 1/4;
 }
